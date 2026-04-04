@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/fccdfc77833ad67e8bd35b789651262a.loader.js";
+      var loaderUrl = buildUrl + "/690da06da2787bfc64405e813d10f852.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/3d1a745e16059c47106d5274f678fea2.data.unityweb",
-        frameworkUrl: buildUrl + "/24fdb0c1dcf045b308d7bf805cbbfd67.framework.js.unityweb",
-        codeUrl: buildUrl + "/2aca0b026fb8cf87cda0550db56ef1aa.wasm.unityweb",
+        dataUrl: buildUrl + "/e59395922bfee9e60a25d1f6df12e394.data",
+        frameworkUrl: buildUrl + "/f89ee67742f8d776f79cb6608c8494ab.framework.js",
+        codeUrl: buildUrl + "/1a3ed0815e40780f47aa404026623528.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MindFall",
         productName: "Space War",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1080px";
+        canvas.style.height = "1920px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
